@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navbar-bg{
+    background-color: rgba(38, 38, 38, 0.85);
+}
+
+.bse-bg{
+    background-color: rgba(12, 1, 61, 1);
+}
+
+.link:hover{
+    transition: all 0.3s ease;
+   background: rgba(28, 28, 28, 0.85);
+}
