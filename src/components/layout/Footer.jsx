@@ -1,5 +1,6 @@
 import React from "react";
 import { footImg, linkedin } from "../../assets/images";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -58,8 +59,14 @@ const Footer = () => {
               {" "}
               ©Aartech Solonics. All rights reserved.
             </li>
-            <li className="font-barlow  my-1"> Privacy policy</li>
-            <li className="font-barlow  my-1"> Cookie policy</li>
+            <Link to="/privacy-policy" className="font-barlow  my-1">
+              {" "}
+              Privacy policy
+            </Link>
+            <Link to="/cookie-policy" className="font-barlow  my-1">
+              {" "}
+              Cookie policy
+            </Link>
           </ul>
           <div className="contactImg hidden lg:flex space-x-4 top-[-420px] lg:top-0 right-0  lg:right-[150px]  items-center justify-center  ml-[2rem] lg:-ml-[26px]  ">
             <span className="font-barlow text-[20px] font-bold whitespace-nowrap">

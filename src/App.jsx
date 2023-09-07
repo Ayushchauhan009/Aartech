@@ -1,5 +1,12 @@
 import React from "react";
-import { Home, Industries, Solutions, Products } from "./components/pages";
+import {
+  Home,
+  Industries,
+  Solutions,
+  Products,
+  Privacy,
+  Cookie,
+} from "./components/pages";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,6 +17,8 @@ function App() {
         <Route exact path="/industries" Component={Industries} />
         <Route exact path="/solutions" Component={Solutions} />
         <Route exact path="/products" Component={Products} />
+        <Route exact path="/privacy-policy" Component={Privacy} />
+        <Route exact path="/cookie-policy" Component={Cookie} />
       </Routes>
     </BrowserRouter>
   );
