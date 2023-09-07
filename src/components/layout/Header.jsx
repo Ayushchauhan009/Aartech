@@ -8,8 +8,8 @@ const Header = () => {
 
   useEffect(() => {
     // Replace with your Angel One SmartAPI credentials
-    const apiKey = "7X3HCmUD";
-    const apiSecret = "583d8b1b-f2f8-4077-a5ac-768b7e05d6ae";
+    const apiKey = "oJZUTld8";
+    const apiSecret = "e2218618-7658-4741-a6e4-33736d291045";
 
     // Define the stock symbols for NSE and BSE
     const nseSymbol = "NIFTY";
